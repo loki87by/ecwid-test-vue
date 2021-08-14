@@ -1,22 +1,3 @@
-export const createElement = (tagName, params, container, text) => {
-  const element = document.createElement(tagName)
-
-  if (text) {
-    element.textContent = text
-  }
-
-  if (params) {
-    Object.entries(params).forEach((param) => {
-      element.setAttribute(String(param[0]), String(param[1]))
-    })
-  }
-
-  if (container) {
-    container.appendChild(element)
-  }
-  return element
-}
-
 export function changeSlide (direction, data) {
   if (direction === 0) {
     data.pos--

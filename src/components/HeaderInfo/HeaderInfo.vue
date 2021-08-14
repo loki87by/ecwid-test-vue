@@ -11,9 +11,9 @@
 </template>
 
 <script>
-import position from '../../../../src/assets/icons/position.svg'
-import clock from '../../../../src/assets/icons/clock.svg'
-import phone from '../../../../src/assets/icons/phone.svg'
+import position from '../../../src/assets/icons/position.svg'
+import clock from '../../../src/assets/icons/clock.svg'
+import phone from '../../../src/assets/icons/phone.svg'
 
 export default {
   name: 'HeaderInfo',
@@ -50,7 +50,7 @@ export default {
 </script>
 
 <style>
-@import url('../../../blocks/header/__info/header__info.css');
-@import url('../../../blocks/header/__info-item/header__info-item.css');
-@import url('../../../blocks/header/__info-text/header__info-text.css');
+@import url('../../blocks/header/__info/header__info.css');
+@import url('../../blocks/header/__info-item/header__info-item.css');
+@import url('../../blocks/header/__info-text/header__info-text.css');
 </style>

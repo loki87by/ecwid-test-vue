@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import HeaderInfo from './HeaderInfo/HeaderInfo.vue'
+import HeaderInfo from '../HeaderInfo/HeaderInfo.vue'
 import logoHeader from '../../../src/assets/icons/logo_header.svg'
 import basket from '../../../src/assets/icons/basket.svg'
 

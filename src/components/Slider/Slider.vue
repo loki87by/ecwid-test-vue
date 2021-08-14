@@ -2,10 +2,10 @@
   <section class="slider">
     <div class="slider__wrapper">
       <img
-        v-for="(item, index) in sliderItems"
+        v-for="(slide, index) in slides"
         :key="index"
-        :alt="item.alt"
-        :src="item.src"
+        :alt="slide.alt"
+        :src="slide.src"
         class="slider__image"
       />
     </div>
@@ -46,7 +46,7 @@ export default {
   name: 'Slider',
   data: function () {
     return {
-      sliderItems: [
+      slides: [
         {
           src: yarn,
           alt: 'Yarn'

@@ -1,6 +1,6 @@
 .slider__image {
   min-width: 100%;
-  object-fit: cover;
+  object-fit: fill;
   -webkit-transition: -webkit-transform 1s linear;
   transition: -webkit-transform 1s linear;
   -o-transition: transform 1s linear;

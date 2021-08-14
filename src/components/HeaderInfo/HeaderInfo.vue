@@ -11,39 +11,13 @@
 </template>
 
 <script>
-import position from '../../../src/assets/icons/position.svg'
-import clock from '../../../src/assets/icons/clock.svg'
-import phone from '../../../src/assets/icons/phone.svg'
+import { listItems } from '../../consts/consts'
 
 export default {
   name: 'HeaderInfo',
   data: function () {
     return {
-      listItems: [
-        {
-          src: position,
-          alt: 'adress',
-          text1: 'м. Кропоткинская',
-          text2: `Соймоновский
-    проезд, д.7 с.1`
-        },
-        {
-          src: clock,
-          alt: 'work time',
-          text1: `Пн - Пт
-    11 - 20`,
-          text2: `Сб - Вск
-    11 - 18`
-        },
-        {
-          src: phone,
-          alt: 'adress',
-          text1: `+7 800
-    000 00 00`,
-          text2: `+7 800
-    000 00 00`
-        }
-      ]
+      listItems: listItems
     }
   }
 }

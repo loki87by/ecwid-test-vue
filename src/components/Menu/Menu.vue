@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import MenuNavigation from './MenuNavigation/MenuNavigation.vue'
+import MenuNavigation from '../MenuNavigation/MenuNavigation.vue'
 
 export default {
   name: 'Menu',

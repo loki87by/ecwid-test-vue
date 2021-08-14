@@ -35,39 +35,14 @@
 </template>
 
 <script>
-import yarn from '../../../src/assets/images/yarn.jpg'
-import spokes from '../../../src/assets/images/spokes.jpeg'
-import hooks from '../../../src/assets/images/hooks.jpg'
-import accessories from '../../../src/assets/images/Accessories.jpg'
-import toys from '../../../src/assets/images/toys.jpg'
-import { changeSlide, clickSlide } from '../../../src/consts/helpers.js'
+import { slides } from '../../consts/consts'
+import { changeSlide, clickSlide } from '../../consts/helpers.js'
 
 export default {
   name: 'Slider',
   data: function () {
     return {
-      slides: [
-        {
-          src: yarn,
-          alt: 'Yarn'
-        },
-        {
-          src: spokes,
-          alt: 'Spokes'
-        },
-        {
-          src: hooks,
-          alt: 'Hooks'
-        },
-        {
-          src: accessories,
-          alt: 'Accessories'
-        },
-        {
-          src: toys,
-          alt: 'Toys'
-        }
-      ]
+      slides: slides
     }
   },
   methods: {

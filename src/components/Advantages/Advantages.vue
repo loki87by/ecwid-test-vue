@@ -11,46 +11,13 @@
 </template>
 
 <script>
-import sheep from '../../../src/assets/icons/sheep.svg'
-import star from '../../../src/assets/icons/star.svg'
-import car from '../../../src/assets/icons/car.svg'
-import geoposition from '../../../src/assets/icons/geoposition.svg'
-import operator from '../../../src/assets/icons/operator.svg'
+import { advantages } from '../../consts/consts.js'
 
 export default {
   name: 'Advantages',
   data: function () {
     return {
-      advantages: [{
-        src: sheep,
-        alt: 'Natural',
-        text1: 'Только',
-        text2: 'натуральный состав'
-      },
-      {
-        src: star,
-        alt: 'Actual',
-        text1: 'Актуальное',
-        text2: 'наличие на сайте'
-      },
-      {
-        src: car,
-        alt: 'Quickly',
-        text1: 'Быстрая',
-        text2: 'отправка'
-      },
-      {
-        src: geoposition,
-        alt: 'Convenience',
-        text1: 'Удобное',
-        text2: 'расположение'
-      },
-      {
-        src: operator,
-        alt: 'Help',
-        text1: 'Помощь',
-        text2: 'в подборе товаров'
-      }]
+      advantages: advantages
     }
   }
 }

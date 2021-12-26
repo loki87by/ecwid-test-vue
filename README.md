@@ -1,21 +1,17 @@
-# ecwid-test-vue
+# проект на ванильном js
 
-> test on Vue.js for ecwid inc.
+Использованы следующие технологии:
+* семантические теги
+* адаптивная вёрстка
+* flex-контейнеры
+* относительные величины
+* модификаторы
+* псевдоэлементы
+* валидация форм
+* **БЭМ**
+* и другое
 
-## Build Setup
+* ## [Деплой:](https://loki87by.github.io/ecwid-test)
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+Проект был тестовым, дальнейших доработок больше не планируется, однако есть
+### [модификация такого же проекта на VanillaJs: ](https://github.com/loki87by/ecwid-test)

@@ -11,7 +11,7 @@
 * **БЭМ**
 * и другое
 
-* ## [Деплой:](https://loki87by.github.io/ecwid-test)
+* ## [Деплой:](https://ecwid-test-vue.netlify.app/)
 
 Проект был тестовым, дальнейших доработок больше не планируется, однако есть
 ### [модификация такого же проекта на VanillaJs: ](https://github.com/loki87by/ecwid-test)
